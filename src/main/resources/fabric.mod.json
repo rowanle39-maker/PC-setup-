@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pcsetup",
+  "version": "${version}",
+  "name": "PC Setup Mod",
+  "description": "Adds computer parts: monitor, case, keyboard, and mouse blocks.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pcsetup.mod.PCSetupMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
